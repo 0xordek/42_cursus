@@ -1,3 +1,4 @@
+#include "libft.h"
 #include <limits.h>
 
 int ft_atoi(const char *str)
@@ -24,5 +25,5 @@ int ft_atoi(const char *str)
         result = (result * 10) + (str[i] - 48);
         i++;
     }
-    return (int)(result * sign);
+    return (result * sign);
 }
