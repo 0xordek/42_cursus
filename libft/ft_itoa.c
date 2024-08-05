@@ -1,6 +1,6 @@
 #include "libft.h"
 
-void    ft_itoa_helper(char *dest, int *i, int n)
+static void    ft_itoa_helper(char *dest, int *i, int n)
 {
     if (n == -2147483648)
     {
