@@ -38,8 +38,8 @@ size_t  ft_strlen(const char *str); // ok
 int     ft_strncmp(const char *str1, const char *str2, size_t n); // ok
 char    *ft_strnstr(const char *haystack, const char *needle, size_t len); // ok
 char    *ft_strtrim(char const *s1, char const *set); // ok
-char    *ft_strchr(const char *str, int ch);
-char    *ft_strrchr(const char *str, int ch);
+char    *ft_strchr(const char *str, int ch); // ok
+char    *ft_strrchr(const char *str, int ch); // ok
 void    ft_striteri(char *s, void (*f)(unsigned int, char *));
 char    *ft_substr(char const *s, unsigned int start, size_t len);
 char    *ft_strmapi(char const *s, char (*f)(unsigned int, char));
